@@ -1,0 +1,113 @@
+
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:url("../images/dashboard_bg.png") center/cover fixed no-repeat;
+}
+
+header{
+    
+    color:white;
+    padding:18px 6%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 3px 12px #bbb;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:22px;
+    font-weight:500;
+}
+
+nav a:hover{
+    opacity:.8;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.page-title{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.page-title h1{
+    color:#1565c0;
+    margin-bottom:8px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px #dce3eb;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#1976d2;
+    color:white;
+    padding:11px 20px;
+    border:0;
+    border-radius:8px;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.btn:hover{
+    background:#125ca5;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:11px;
+    border:1px solid #ddd;
+    border-radius:7px;
+}
+
+footer{
+    margin-top:50px;
+    padding:20px;
+    text-align:center;
+    background:#0d47a1;
+    color:white;
+}
+
+@media(max-width:700px){
+    header{
+        display:block;
+        text-align:center;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:5px;
+    }
+}
